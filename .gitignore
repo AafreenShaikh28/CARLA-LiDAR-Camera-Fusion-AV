@@ -1,0 +1,58 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets and sensor data
+datasets/
+dataset/
+data/
+*.pcd
+*.bag
+*.bin
+*.raw
+
+# Model weights and checkpoints
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Training outputs and experiment logs
+runs/
+wandb/
+logs/
+outputs/
+lightning_logs/
+
+# Video and generated images
+*.mp4
+*.avi
+*.mov
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
